@@ -1,0 +1,6 @@
+Choses à faire pour faire marcher le notebook sur ICNN:
+
+- S'assurer que la loss fonctionne correctement.
+- S'assurer que l'on maximize une fonction concave partout. Pas de '-' de plus sur les output de l'ICNN.
+- Augmenter la quantité de steps/epochs
+- Utiliser ER avec priority
