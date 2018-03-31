@@ -1,12 +1,7 @@
-# VAE for patient histories modeling
+Deep reinforcement learning for Healthcare data
 
-* `models.py` contains useful layers for the VAE
-* `vae.py` contains the encoder and the decoder
-* `parallelization.py` contains code that allows to train a model om multiple GPU (not sure it is functional though)
-* `VAE.ipynb` is an example of how to build the VAE (with the loss and everything)
+Class project for CS282 at Harvard
+I worked with Camilo Fosco on building a decision making system for physicians in the ICU
 
-Evaluation for project CS282:
-
-Check correlations between the data and our outputs. Analyze what is creating the results and why. 
-Try different hyperparameters to have a sense of what is impacting our outputs the most.
-
+The idea was to use ICNN (https://arxiv.org/abs/1609.07152) and DDQN (https://arxiv.org/abs/1509.06461) to improve the results of https://arxiv.org/abs/1711.09602 and make them more interpretable.
+We also tried to build VAE (https://arxiv.org/abs/1312.6114) for temporal series, to find a fixed, continuous representation of patient health states.
