@@ -1,4 +1,4 @@
-Deep reinforcement learning for Healthcare data
+# Deep reinforcement learning for Healthcare data
 
 Class project for CS282 at Harvard
 I worked with Camilo Fosco on building a decision making system for physicians in the ICU
